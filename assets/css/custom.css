@@ -1,10 +1,30 @@
-/* Change all reference/link colors from green to blue */
+/* Change all links/references from green to blue */
 a,
-a:visited {
-  color: #1A4E8A;
+a:visited,
+.page__content a,
+.page__content a:visited,
+.page__content a:not(.btn),
+.page__content a:not(.btn):visited,
+.author__urls a,
+.author__urls a:visited,
+.sidebar a,
+.sidebar a:visited {
+  color: #1A4E8A !important;
+  border-bottom-color: #1A4E8A !important;
+  text-decoration-color: #1A4E8A !important;
 }
 
 a:hover,
-a:focus {
-  color: #0057B8;
+a:focus,
+.page__content a:hover,
+.page__content a:focus,
+.page__content a:not(.btn):hover,
+.page__content a:not(.btn):focus,
+.author__urls a:hover,
+.author__urls a:focus,
+.sidebar a:hover,
+.sidebar a:focus {
+  color: #0057B8 !important;
+  border-bottom-color: #0057B8 !important;
+  text-decoration-color: #0057B8 !important;
 }
