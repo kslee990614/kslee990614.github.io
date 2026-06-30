@@ -1,0 +1,10 @@
+/* Change all reference/link colors from green to blue */
+a,
+a:visited {
+  color: #1A4E8A;
+}
+
+a:hover,
+a:focus {
+  color: #0057B8;
+}
